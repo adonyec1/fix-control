@@ -35,8 +35,8 @@ mod 'ntp',
 
 mod 'role',
   :git => 'https://github.com/adonyec1/cnan-role.git',
-  :ref => 'development'
+  :ref => 'master'
 
 mod 'profile',
   :git => 'git@github.com:adonyec1/cnan-profile.git',
-  :ref => 'development'
+  :ref => 'master'
