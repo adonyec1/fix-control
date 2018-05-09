@@ -40,3 +40,7 @@ mod 'role',
 mod 'profile',
   :git => 'git@github.com:adonyec1/cnan-profile.git',
   :ref => 'master'
+
+mod 'nginx',
+  :git => 'git@github.com:adonyec1/cnan-nginx.git',
+  :ref => 'master'
