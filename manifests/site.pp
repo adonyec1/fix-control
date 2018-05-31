@@ -29,7 +29,7 @@ node 'adonyec2.mylabserver' {
 }
 
 node /^adonyec2/ {
-  notify { ""This is a node definition using regex!!!!": }
+  notify { "This is a node definition using regex!!!!": }
 }
 
 node default {
