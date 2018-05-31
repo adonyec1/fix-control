@@ -28,9 +28,9 @@ node 'adonyec2.mylabserver' {
   notify { 'This matches the node name !!!!': }
 }
 
-node /^adonyec2/ {
-  notify { "This is a node definition using regex!!!!": }
-}
+#node /^adonyec2/ {
+#  notify { "This is a node definition using regex!!!!": }
+#}
 
 node default {
   # This is where you can declare classes for all nodes.
